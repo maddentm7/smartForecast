@@ -1,0 +1,742 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09784C9DE0D51C1A13EDFEAE /* Pods_SmartForecastTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 882C70B47EE62066DC1F9B01 /* Pods_SmartForecastTests.framework */; };
+		182DD4DCA894370389ACA353 /* Pods_SmartForecast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FAD393FBEBCF781BEBF5557 /* Pods_SmartForecast.framework */; };
+		1E5EA80FDED998C970B8C62A /* Pods_SmartForecastUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDD5F7A1A7D198CC5860DE66 /* Pods_SmartForecastUITests.framework */; };
+		B764237E20C71BE00013876A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B764237C20C71BE00013876A /* Main.storyboard */; };
+		B78F23F220B52D4B0037F91A /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78F23F120B52D4B0037F91A /* WeatherService.swift */; };
+		B7A67F3D20B2237F002A5115 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A67F3C20B2237F002A5115 /* AppDelegate.swift */; };
+		B7A67F3F20B2237F002A5115 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A67F3E20B2237F002A5115 /* ViewController.swift */; };
+		B7A67F4420B2237F002A5115 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7A67F4320B2237F002A5115 /* Assets.xcassets */; };
+		B7A67F4720B2237F002A5115 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7A67F4520B2237F002A5115 /* LaunchScreen.storyboard */; };
+		B7A67F5220B2237F002A5115 /* SmartForecastTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A67F5120B2237F002A5115 /* SmartForecastTests.swift */; };
+		B7A67F5D20B2237F002A5115 /* SmartForecastUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A67F5C20B2237F002A5115 /* SmartForecastUITests.swift */; };
+		B7C5282F20C33F4D00F8C830 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C5282E20C33F4D00F8C830 /* SettingsViewController.swift */; };
+		B7C5283120C34B3700F8C830 /* WeeklyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C5283020C34B3700F8C830 /* WeeklyViewController.swift */; };
+		B7C5283720C34F0200F8C830 /* WeeklyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C5283620C34F0200F8C830 /* WeeklyCollectionViewCell.swift */; };
+		B7C723D020BF8CC0005B3FC7 /* forecastCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C723CF20BF8CC0005B3FC7 /* forecastCollectionViewCell.swift */; };
+		B7F6F57D20B39C0F00110259 /* WeatherDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F6F57C20B39C0F00110259 /* WeatherDataModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7A67F4E20B2237F002A5115 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7A67F3120B2237F002A5115 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7A67F3820B2237F002A5115;
+			remoteInfo = SmartForecast;
+		};
+		B7A67F5920B2237F002A5115 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7A67F3120B2237F002A5115 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7A67F3820B2237F002A5115;
+			remoteInfo = SmartForecast;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EA79C6D4BE2F2E39880EBBB /* Pods-SmartForecastTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartForecastTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmartForecastTests/Pods-SmartForecastTests.release.xcconfig"; sourceTree = "<group>"; };
+		2BFCB0AE26BFE5DD2864F938 /* Pods-SmartForecastTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartForecastTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmartForecastTests/Pods-SmartForecastTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2FAD393FBEBCF781BEBF5557 /* Pods_SmartForecast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartForecast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34B61855F9C1D304FAA6841E /* Pods-SmartForecast.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartForecast.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmartForecast/Pods-SmartForecast.release.xcconfig"; sourceTree = "<group>"; };
+		882C70B47EE62066DC1F9B01 /* Pods_SmartForecastTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartForecastTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B22807F9204514F7D909CB0D /* Pods-SmartForecastUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartForecastUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmartForecastUITests/Pods-SmartForecastUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B764237D20C71BE00013876A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B78F23F120B52D4B0037F91A /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		B7A67F3920B2237F002A5115 /* SmartForecast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartForecast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7A67F3C20B2237F002A5115 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B7A67F3E20B2237F002A5115 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B7A67F4320B2237F002A5115 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B7A67F4620B2237F002A5115 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B7A67F4820B2237F002A5115 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7A67F4D20B2237F002A5115 /* SmartForecastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartForecastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7A67F5120B2237F002A5115 /* SmartForecastTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartForecastTests.swift; sourceTree = "<group>"; };
+		B7A67F5320B2237F002A5115 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7A67F5820B2237F002A5115 /* SmartForecastUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartForecastUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7A67F5C20B2237F002A5115 /* SmartForecastUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartForecastUITests.swift; sourceTree = "<group>"; };
+		B7A67F5E20B22380002A5115 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7C5282E20C33F4D00F8C830 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		B7C5283020C34B3700F8C830 /* WeeklyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyViewController.swift; sourceTree = "<group>"; };
+		B7C5283620C34F0200F8C830 /* WeeklyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyCollectionViewCell.swift; sourceTree = "<group>"; };
+		B7C723CF20BF8CC0005B3FC7 /* forecastCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = forecastCollectionViewCell.swift; path = SmartForecast/Controller/forecastCollectionViewCell.swift; sourceTree = SOURCE_ROOT; };
+		B7F6F57C20B39C0F00110259 /* WeatherDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDataModel.swift; sourceTree = "<group>"; };
+		CDD5F7A1A7D198CC5860DE66 /* Pods_SmartForecastUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartForecastUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF5D42CFC9711048AE6F8D5C /* Pods-SmartForecast.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartForecast.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmartForecast/Pods-SmartForecast.debug.xcconfig"; sourceTree = "<group>"; };
+		F7ABBA010BB8A52E378D7063 /* Pods-SmartForecastUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartForecastUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmartForecastUITests/Pods-SmartForecastUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7A67F3620B2237F002A5115 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182DD4DCA894370389ACA353 /* Pods_SmartForecast.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7A67F4A20B2237F002A5115 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09784C9DE0D51C1A13EDFEAE /* Pods_SmartForecastTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7A67F5520B2237F002A5115 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E5EA80FDED998C970B8C62A /* Pods_SmartForecastUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DED142F49DE5E792D871D19 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2FAD393FBEBCF781BEBF5557 /* Pods_SmartForecast.framework */,
+				882C70B47EE62066DC1F9B01 /* Pods_SmartForecastTests.framework */,
+				CDD5F7A1A7D198CC5860DE66 /* Pods_SmartForecastUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B724A77C20BA7B8D0048B02C /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				B78F23F120B52D4B0037F91A /* WeatherService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		B7A67F3020B2237F002A5115 = {
+			isa = PBXGroup;
+			children = (
+				B7A67F3B20B2237F002A5115 /* SmartForecast */,
+				B7A67F5020B2237F002A5115 /* SmartForecastTests */,
+				B7A67F5B20B2237F002A5115 /* SmartForecastUITests */,
+				B7A67F3A20B2237F002A5115 /* Products */,
+				CA2857A799B8AD37FE704044 /* Pods */,
+				3DED142F49DE5E792D871D19 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B7A67F3A20B2237F002A5115 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7A67F3920B2237F002A5115 /* SmartForecast.app */,
+				B7A67F4D20B2237F002A5115 /* SmartForecastTests.xctest */,
+				B7A67F5820B2237F002A5115 /* SmartForecastUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7A67F3B20B2237F002A5115 /* SmartForecast */ = {
+			isa = PBXGroup;
+			children = (
+				B7A67F4820B2237F002A5115 /* Info.plist */,
+				B7A67F4320B2237F002A5115 /* Assets.xcassets */,
+				B7A67F3C20B2237F002A5115 /* AppDelegate.swift */,
+				B724A77C20BA7B8D0048B02C /* Service */,
+				B7A67F6C20B2440E002A5115 /* Controller */,
+				B7A67F6B20B24405002A5115 /* View */,
+				B7A67F6A20B243F3002A5115 /* Model */,
+			);
+			path = SmartForecast;
+			sourceTree = "<group>";
+		};
+		B7A67F5020B2237F002A5115 /* SmartForecastTests */ = {
+			isa = PBXGroup;
+			children = (
+				B7A67F5120B2237F002A5115 /* SmartForecastTests.swift */,
+				B7A67F5320B2237F002A5115 /* Info.plist */,
+			);
+			path = SmartForecastTests;
+			sourceTree = "<group>";
+		};
+		B7A67F5B20B2237F002A5115 /* SmartForecastUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B7A67F5C20B2237F002A5115 /* SmartForecastUITests.swift */,
+				B7A67F5E20B22380002A5115 /* Info.plist */,
+			);
+			path = SmartForecastUITests;
+			sourceTree = "<group>";
+		};
+		B7A67F6A20B243F3002A5115 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B7F6F57C20B39C0F00110259 /* WeatherDataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B7A67F6B20B24405002A5115 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B7A67F4520B2237F002A5115 /* LaunchScreen.storyboard */,
+				B764237C20C71BE00013876A /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B7A67F6C20B2440E002A5115 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B7A67F3E20B2237F002A5115 /* ViewController.swift */,
+				B7C723CF20BF8CC0005B3FC7 /* forecastCollectionViewCell.swift */,
+				B7C5282E20C33F4D00F8C830 /* SettingsViewController.swift */,
+				B7C5283020C34B3700F8C830 /* WeeklyViewController.swift */,
+				B7C5283620C34F0200F8C830 /* WeeklyCollectionViewCell.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CA2857A799B8AD37FE704044 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF5D42CFC9711048AE6F8D5C /* Pods-SmartForecast.debug.xcconfig */,
+				34B61855F9C1D304FAA6841E /* Pods-SmartForecast.release.xcconfig */,
+				2BFCB0AE26BFE5DD2864F938 /* Pods-SmartForecastTests.debug.xcconfig */,
+				0EA79C6D4BE2F2E39880EBBB /* Pods-SmartForecastTests.release.xcconfig */,
+				F7ABBA010BB8A52E378D7063 /* Pods-SmartForecastUITests.debug.xcconfig */,
+				B22807F9204514F7D909CB0D /* Pods-SmartForecastUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7A67F3820B2237F002A5115 /* SmartForecast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7A67F6120B22380002A5115 /* Build configuration list for PBXNativeTarget "SmartForecast" */;
+			buildPhases = (
+				3EE5E3F49B7FB7FB1A1DED45 /* [CP] Check Pods Manifest.lock */,
+				B7A67F3520B2237F002A5115 /* Sources */,
+				B7A67F3620B2237F002A5115 /* Frameworks */,
+				B7A67F3720B2237F002A5115 /* Resources */,
+				3C5DA7CCA7C076D0CB657D85 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartForecast;
+			productName = SmartForecast;
+			productReference = B7A67F3920B2237F002A5115 /* SmartForecast.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B7A67F4C20B2237F002A5115 /* SmartForecastTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7A67F6420B22380002A5115 /* Build configuration list for PBXNativeTarget "SmartForecastTests" */;
+			buildPhases = (
+				AF717AE307884B0F5DD56920 /* [CP] Check Pods Manifest.lock */,
+				B7A67F4920B2237F002A5115 /* Sources */,
+				B7A67F4A20B2237F002A5115 /* Frameworks */,
+				B7A67F4B20B2237F002A5115 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7A67F4F20B2237F002A5115 /* PBXTargetDependency */,
+			);
+			name = SmartForecastTests;
+			productName = SmartForecastTests;
+			productReference = B7A67F4D20B2237F002A5115 /* SmartForecastTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B7A67F5720B2237F002A5115 /* SmartForecastUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7A67F6720B22380002A5115 /* Build configuration list for PBXNativeTarget "SmartForecastUITests" */;
+			buildPhases = (
+				C348407E1B07E296FE9D1864 /* [CP] Check Pods Manifest.lock */,
+				B7A67F5420B2237F002A5115 /* Sources */,
+				B7A67F5520B2237F002A5115 /* Frameworks */,
+				B7A67F5620B2237F002A5115 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7A67F5A20B2237F002A5115 /* PBXTargetDependency */,
+			);
+			name = SmartForecastUITests;
+			productName = SmartForecastUITests;
+			productReference = B7A67F5820B2237F002A5115 /* SmartForecastUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7A67F3120B2237F002A5115 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Parsa Bagheri";
+				TargetAttributes = {
+					B7A67F3820B2237F002A5115 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					B7A67F4C20B2237F002A5115 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B7A67F3820B2237F002A5115;
+					};
+					B7A67F5720B2237F002A5115 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B7A67F3820B2237F002A5115;
+					};
+				};
+			};
+			buildConfigurationList = B7A67F3420B2237F002A5115 /* Build configuration list for PBXProject "SmartForecast" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7A67F3020B2237F002A5115;
+			productRefGroup = B7A67F3A20B2237F002A5115 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7A67F3820B2237F002A5115 /* SmartForecast */,
+				B7A67F4C20B2237F002A5115 /* SmartForecastTests */,
+				B7A67F5720B2237F002A5115 /* SmartForecastUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7A67F3720B2237F002A5115 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7A67F4720B2237F002A5115 /* LaunchScreen.storyboard in Resources */,
+				B7A67F4420B2237F002A5115 /* Assets.xcassets in Resources */,
+				B764237E20C71BE00013876A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7A67F4B20B2237F002A5115 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7A67F5620B2237F002A5115 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C5DA7CCA7C076D0CB657D85 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SmartForecast/Pods-SmartForecast-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmartForecast/Pods-SmartForecast-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3EE5E3F49B7FB7FB1A1DED45 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmartForecast-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF717AE307884B0F5DD56920 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmartForecastTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C348407E1B07E296FE9D1864 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmartForecastUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7A67F3520B2237F002A5115 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7C5283120C34B3700F8C830 /* WeeklyViewController.swift in Sources */,
+				B7C5283720C34F0200F8C830 /* WeeklyCollectionViewCell.swift in Sources */,
+				B7C723D020BF8CC0005B3FC7 /* forecastCollectionViewCell.swift in Sources */,
+				B78F23F220B52D4B0037F91A /* WeatherService.swift in Sources */,
+				B7A67F3F20B2237F002A5115 /* ViewController.swift in Sources */,
+				B7A67F3D20B2237F002A5115 /* AppDelegate.swift in Sources */,
+				B7F6F57D20B39C0F00110259 /* WeatherDataModel.swift in Sources */,
+				B7C5282F20C33F4D00F8C830 /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7A67F4920B2237F002A5115 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7A67F5220B2237F002A5115 /* SmartForecastTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7A67F5420B2237F002A5115 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7A67F5D20B2237F002A5115 /* SmartForecastUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7A67F4F20B2237F002A5115 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7A67F3820B2237F002A5115 /* SmartForecast */;
+			targetProxy = B7A67F4E20B2237F002A5115 /* PBXContainerItemProxy */;
+		};
+		B7A67F5A20B2237F002A5115 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7A67F3820B2237F002A5115 /* SmartForecast */;
+			targetProxy = B7A67F5920B2237F002A5115 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B764237C20C71BE00013876A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B764237D20C71BE00013876A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B7A67F4520B2237F002A5115 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7A67F4620B2237F002A5115 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B7A67F5F20B22380002A5115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B7A67F6020B22380002A5115 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7A67F6220B22380002A5115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF5D42CFC9711048AE6F8D5C /* Pods-SmartForecast.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T6ZK2976Q2;
+				INFOPLIST_FILE = SmartForecast/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.uoregon-parsab.SmartForecast";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7A67F6320B22380002A5115 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34B61855F9C1D304FAA6841E /* Pods-SmartForecast.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T6ZK2976Q2;
+				INFOPLIST_FILE = SmartForecast/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.uoregon-parsab.SmartForecast";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B7A67F6520B22380002A5115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BFCB0AE26BFE5DD2864F938 /* Pods-SmartForecastTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SmartForecastTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.uoregon-parsab.SmartForecastTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartForecast.app/SmartForecast";
+			};
+			name = Debug;
+		};
+		B7A67F6620B22380002A5115 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EA79C6D4BE2F2E39880EBBB /* Pods-SmartForecastTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SmartForecastTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.uoregon-parsab.SmartForecastTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartForecast.app/SmartForecast";
+			};
+			name = Release;
+		};
+		B7A67F6820B22380002A5115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7ABBA010BB8A52E378D7063 /* Pods-SmartForecastUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SmartForecastUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.uoregon-parsab.SmartForecastUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartForecast;
+			};
+			name = Debug;
+		};
+		B7A67F6920B22380002A5115 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B22807F9204514F7D909CB0D /* Pods-SmartForecastUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SmartForecastUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.uoregon-parsab.SmartForecastUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartForecast;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7A67F3420B2237F002A5115 /* Build configuration list for PBXProject "SmartForecast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7A67F5F20B22380002A5115 /* Debug */,
+				B7A67F6020B22380002A5115 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7A67F6120B22380002A5115 /* Build configuration list for PBXNativeTarget "SmartForecast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7A67F6220B22380002A5115 /* Debug */,
+				B7A67F6320B22380002A5115 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7A67F6420B22380002A5115 /* Build configuration list for PBXNativeTarget "SmartForecastTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7A67F6520B22380002A5115 /* Debug */,
+				B7A67F6620B22380002A5115 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7A67F6720B22380002A5115 /* Build configuration list for PBXNativeTarget "SmartForecastUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7A67F6820B22380002A5115 /* Debug */,
+				B7A67F6920B22380002A5115 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7A67F3120B2237F002A5115 /* Project object */;
+}
